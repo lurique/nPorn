@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    
+	"name": "nPorn",
+	"version": "1.0",
+    "description": "Essa extensão permite que o trollador altere todos os links de qualquer página para o Xvideos",	
+
+	"content_scripts": [
+	    {
+	      "matches": ["*://*/*"],
+	      "js": ["app/index.js"]
+	    }
+  	]
+}
